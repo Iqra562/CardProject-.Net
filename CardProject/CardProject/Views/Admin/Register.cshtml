@@ -1,4 +1,6 @@
-﻿@{
+﻿
+
+@{
     Layout = null;
 }
 
@@ -109,6 +111,7 @@
                                         <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
                                     </div>
                                 </form>
+                                    @ViewBag.data
                                 <div class="mt-5 text-muted text-center">
                                     Don't have an account? <a asp-controller="Admin" asp-action="Login">Create One</a>
                                 </div>
