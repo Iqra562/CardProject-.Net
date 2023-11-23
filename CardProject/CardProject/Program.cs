@@ -14,8 +14,9 @@ namespace CardProject
             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
+            builder.Services.AddSession();
             var app = builder.Build();
-
+            app.UseSession();
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {

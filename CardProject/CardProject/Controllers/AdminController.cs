@@ -22,7 +22,8 @@ namespace CardProject.Controllers
         {
             var login = _db.Registers.Where(a => a.email == r.email && a.password == r.password).FirstOrDefault();
            if (login != null) {
-                ViewBag.data = "loign";
+                HttpContext.Session.SetString("session_user_name", login.Name);
+                return RedirectToAction("Dashboard");
             }
             else
             {
@@ -34,15 +35,30 @@ namespace CardProject.Controllers
         }
         public IActionResult Register()
         {
+            if (HttpContext.Session.GetString("session_user_name") == null)
+            {
+                return RedirectToAction("Login");
+            }
+
             return View();
 
 
         }
         public IActionResult Dashboard()
         {
+            if (HttpContext.Session.GetString("session_user_name")== null)
+            {
+                return RedirectToAction("Login");
+            }
+
             return View();
 
 
+        }
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("session_user_name");
+            return RedirectToAction("Login");
         }
     }
 }
