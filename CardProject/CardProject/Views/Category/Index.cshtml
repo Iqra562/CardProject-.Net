@@ -33,17 +33,21 @@
                         </tr>
                     </thead>
                     <tbody class="ui-sortable">
+                        @foreach(Category category in Model)
+                        {
+                            
                         <tr>
 
-                            <td> 1
+                            <td> @category.CategoryId
                             </td>
-                            <td>Create a mobile app</td>
+                            <td>@category.CategoryName</td>
                          
                             <td><a href="#" class="btn btn-primary">Edit</a>
                                </td><td><a href="#" class="btn btn-light ml-2">Delete</a></td>
 
 
                         </tr>
+                        }
                        
                        
                     </tbody>
