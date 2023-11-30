@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CardProject
 build_property.RootNamespace = CardProject
-build_property.ProjectDir = C:\workfolder\CardProject-.Net\CardProject\CardProject\
+build_property.ProjectDir = C:\Users\STD\Downloads\CardProject-.Net\CardProject\CardProject\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\workfolder\CardProject-.Net\CardProject\CardProject
+build_property.MSBuildProjectDirectory = C:\Users\STD\Downloads\CardProject-.Net\CardProject\CardProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/Admin/Dashboard.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/Admin/Login.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/Admin/Register.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/Admin/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/Category/Create.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/Category/Index.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/Shared/Admin.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/Shared/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/Shared/Error.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/_ViewImports.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/workfolder/CardProject-.Net/CardProject/CardProject/Views/_ViewStart.cshtml]
+[C:/Users/STD/Downloads/CardProject-.Net/CardProject/CardProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
