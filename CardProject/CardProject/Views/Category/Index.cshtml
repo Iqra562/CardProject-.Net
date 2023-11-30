@@ -3,15 +3,19 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/Admin.cshtml";
 }
-
+@model IEnumerable<Category>
 <div class="col-12">
     <div class="card">
-        <div class="card-header">
+        <div class="d-flex ">
+            <div class="card-header">
             <h4>Categories</h4>
-            <div class="card-header-action">
-               
+        </div>
+            <div >
+                <button class="btn btn-primary mt-3 mr-3"><a href="#" class="text-white">+ Add Category</a></button>
+
             </div>
         </div>
+
         <div class="card-body p-0">
             <div class="table-responsive">
                 <table class="table  v_center" id="sortable-table">
@@ -30,6 +34,7 @@
                     </thead>
                     <tbody class="ui-sortable">
                         <tr>
+
                             <td> 1
                             </td>
                             <td>Create a mobile app</td>
