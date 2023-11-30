@@ -1,11 +1,21 @@
-﻿namespace CardProject.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CardProject.Models
 {
     public class Product
     {
-        public int ProductId { get; set; } 
-        public string Name { get; set; } 
+        [Key]
+        public int ProductId { get; set; }
+        [Required]
+        public string Name { get; set; }
+        [Required]
+
         public float Price { get; set; }
+        [Required]
+
         public int Quantity { get; set; }
+        [Required]
+
         public string Image { get; set; }
         public  int CategoryId { get; set; }
         public Category Category { get; set; }

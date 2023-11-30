@@ -1,0 +1,37 @@
+﻿
+@model Category 
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/Admin.cshtml";
+}
+<div class="col-12 col-md-12 col-lg-12">
+    <div class="card">
+        <form method="post" asp-action="Create">
+            <div class="card-header">
+                <h4>Add Category</h4>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <input type="text" class="form-control " asp-for="CategoryName" value="" required="">
+                </div>
+
+              
+                <button type="submit" class="btn btn-primary">Add</button>
+            </div>
+
+        </form>
+        <div class="bg-red">@ViewBag.message </div>
+    </div>
+</div>
+    <script>
+    if (@ViewBag.message != '') {
+        // Use SweetAlert to show the modal
+        Swal.fire({
+            title: 'Category Added!',
+            text: 'This modal will disappear soon!',
+            icon: 'success',
+            showConfirmButton: false,
+            timer: 3000
+        });
+    }
+</script>

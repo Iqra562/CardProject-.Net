@@ -1,9 +1,13 @@
-﻿namespace CardProject.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CardProject.Models
 {
     public class Category
     {
-        public  int CategoryId { get; set; }    
+        [Key]
+        public  int CategoryId { get; set; }
+        [Required]
         public string CategoryName { get; set; }
-        public ICollection<Category> categories { get; set; }
+        public ICollection<Product> products { get; set; }
     }
 }

@@ -277,7 +277,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="nav-link" >Show Category</a></li>
 
-                                <li><a class="nav-link" >Add Category</a></li>
+                                <li><a class="nav-link" asp-controller="Category" asp-action="Create" >Add Category</a></li>
                             </ul>
                         </li>
                         <li class=active><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>Blank Page</span></a></li>
@@ -426,9 +426,7 @@
             <!-- Start app main Content -->
             <div class="main-content">
                 <section class="section">
-                    <div class="section-header">
-                        <h1>Blank Page</h1>
-                    </div>
+                    
 
                     <div class="section-body">
                         @RenderBody()
@@ -456,6 +454,7 @@
     <!-- Template JS File -->
     <script src="~/adminLib/js/scripts.js"></script>
     <script src="~/adminLib/js/custom.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 <!-- blank.html  Tue, 07 Jan 2020 03:35:42 GMT -->
