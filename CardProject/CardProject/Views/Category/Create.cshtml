@@ -27,18 +27,18 @@
         <div class="bg-red">@ViewBag.message </div>
     </div>
 </div>
-@if (ViewBag.message == "Category is added")
-{
+
     <script>
-        var message = '@ViewBag.message';
-        if (message !== "") {
-        // Display the alert
-        document.getElementById("categoryAlert").style.display = "block";
-        }
-        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var message = '@ViewBag.message';
+            if (message !== "") {
+                document.getElementById("categoryAlert").style.display = "block";
+
+            }
+       
     </script>
-}
-@* 
+@*
 @if (ViewBag.message == "Category is added") 
 {
     <script>
