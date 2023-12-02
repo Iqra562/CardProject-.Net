@@ -13,7 +13,8 @@ namespace CardProject.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            
+            return View(_db.Categories.ToList());
         }
         public IActionResult Create()
         {
