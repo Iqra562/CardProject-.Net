@@ -27,29 +27,16 @@
         <div class="bg-red">@ViewBag.message </div>
     </div>
 </div>
-
-    <script>
-
-        document.addEventListener("DOMContentLoaded", function () {
-            var message = '@ViewBag.message';
-            if (message !== "") {
-                document.getElementById("categoryAlert").style.display = "block";
-
-            }
-       
-    </script>
-@*
-@if (ViewBag.message == "Category is added") 
+@if (ViewBag.message == "Category is added")
 {
     <script>
 
-        Swal.fire({
-            title: 'Category Added!',
-            text: 'This modal will disappear soon!',
-            icon: 'success',
-            showConfirmButton: false,
-            timer: 3000
-        });
-</script>
-    }
- *@
+        document.addEventListener("DOMContentLoaded", function () {
+           @*  var message = '@ViewBag.message';
+            if (message !== "") { *@
+                document.getElementById("categoryAlert").style.display = "block";
+
+            @* } *@
+       
+    </script>
+        }
