@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/Admin.cshtml";
 }
 <div class="col-12 col-md-12 col-lg-12">
-    <div class="alert alert-light col-3" role="alert">
+    <div class="alert alert-light col-3 d-none" id="categoryAlert" role="alert">
         A simple primary alert—check it out!
     </div>
 
@@ -27,8 +27,18 @@
         <div class="bg-red">@ViewBag.message </div>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+@if (ViewBag.message == "Category is added")
+{
+    <script>
+        var message = '@ViewBag.message';
+        if (message !== "") {
+        // Display the alert
+        document.getElementById("categoryAlert").style.display = "block";
+        }
+        });
+    </script>
+}
+@* 
 @if (ViewBag.message == "Category is added") 
 {
     <script>
@@ -42,3 +52,4 @@
         });
 </script>
     }
+ *@
