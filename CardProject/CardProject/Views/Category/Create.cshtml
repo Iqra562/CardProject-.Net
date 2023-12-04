@@ -1,18 +1,27 @@
-﻿
+﻿ 
 @model Category 
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/Admin.cshtml";
 }
 <div class="col-12 col-md-12 col-lg-12">
-    <div class="alert alert-light col-3 d-none" id="categoryAlert" role="alert">
-        A simple primary alert—check it out!
-    </div>
 
+    <div class="col-12 d-flex justify-content-center " style="position: relative; top:-60px">
+    @if (!string.IsNullOrEmpty(ViewBag.message))
+    {
+        <div class="bg-white col-3 p-2 " id="categoryAlert" role="alert">
+            @ViewBag.message
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-light col-3 d-none" id="categoryAlert" role="alert"></div>
+    }
+    </div>
     <div class="card">
         <form method="post" asp-action="Create">
-            <div class="card-header">
-                <h4>Add Category</h4>
+            <div class="ml-3 mt-3">
+                <h5>Add Category</h5>
             </div>
             <div class="card-body">
                 <div class="form-group">
@@ -20,23 +29,10 @@
                 </div>
 
               
-                <button type="submit" class="btn btn-primary">Add</button>
+                <button class="btn btn-primary"   onclick="fun()">Add</button>
             </div>
 
         </form>
-        <div class="bg-red">@ViewBag.message </div>
+        <div class="bg-red"> </div>
     </div>
 </div>
-@if (ViewBag.message == "Category is added")
-{
-    <script>
-
-        document.addEventListener("DOMContentLoaded", function () {
-           @*  var message = '@ViewBag.message';
-            if (message !== "") { *@
-                document.getElementById("categoryAlert").style.display = "block";
-
-            @* } *@
-       
-    </script>
-        }

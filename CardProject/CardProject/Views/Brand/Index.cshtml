@@ -4,5 +4,66 @@
     Layout = "~/Views/Shared/Admin.cshtml";
 }
 
-<h1>Index</h1>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Admin.cshtml";
+}
+@model IEnumerable<Brand>
+<div class="col-12">
+
+    <div class="card">
+        <div class="d-flex ">
+            <div class="card-header">
+                <h4>Categories</h4>
+            </div>
+            <div>
+                <button class="btn btn-primary mt-3 mr-3"><a asp-action="Create" class="text-white">+ Add  brand</a></button>
+
+            </div>
+        </div>
+
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table  v_center" id="sortable-table">
+                    <thead>
+                        <tr>
+                            <th>
+                                #
+                            </th>
+                            <th>Brand Name</th>
+
+                            <th>Edit</th>
+                            <th>Delete</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody class="ui-sortable">
+                        @foreach (var brand in Model)
+                        {
+
+                            <tr>
+
+                                <td>
+                                    @brand.BrandId
+                                </td>
+                                <td>@brand.BrandName</td>
+
+                                <td>
+                                    <a href="#" class="btn btn-primary">Edit</a>
+                                </td>
+                                <td><a href="#" class="btn btn-light ml-2">Delete</a></td>
+
+
+                            </tr>
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
 

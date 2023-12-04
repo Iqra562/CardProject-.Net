@@ -1,1 +1,1 @@
-select * from categories
+select * from products

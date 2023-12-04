@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/Admin.cshtml";
+}
+@model Brand
+<div class="col-12 col-md-12 col-lg-12">
+<div class="alert alert-light col-3 d-none" id="categoryAlert" role="alert">
+    A simple primary alert—check it out!
+</div>
+
+<div class="card">
+    <form method="post" asp-action="Create" enctype="multipart/form-data">
+        <div class="card-header">
+            <h4>Add Category</h4>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <input type="text" class="form-control " asp-for="BrandName" value="" required="">
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+
+    </form>
+    <div class="bg-red">@ViewBag.message </div>
+</div>
+</div>
+

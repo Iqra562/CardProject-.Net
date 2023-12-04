@@ -10,7 +10,7 @@
     </div>
 
     <div class="card">
-        <form method="post" asp-action="Create">
+        <form method="post" asp-action="Create" enctype="multipart/form-data">
             <div class="card-header">
                 <h4>Add Product</h4>
             </div>
@@ -27,13 +27,16 @@
 
                 <div class="form-group">
                    <label>Choose One</label>
-                    <select asp-items="ViewBag.category" class="form-control"></select>
+                    <select asp-for="CategoryId" asp-items="ViewBag.category" class="form-control"></select>
                 </div>
                 <div class="form-group">
                     <label>Choose One</label>
-                    <select asp-items="ViewBag.brand" class="form-control"></select>
+                    <select asp-for="BrandId" asp-items="ViewBag.brand" class="form-control"></select>
                 </div>
-
+                <div class="form-group">
+                    <input type="file" class="form-control " asp-for="Image" placeholder="Enter product price" value="" required="">
+                </div>
+                <h3>@ViewBag.message</h3>
 
                 <button type="submit" class="btn btn-primary">Add</button>
             </div>
