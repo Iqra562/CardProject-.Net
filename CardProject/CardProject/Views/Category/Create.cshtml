@@ -9,9 +9,11 @@
     <div class="col-12 d-flex justify-content-center " style="position: relative; top:-60px">
     @if (!string.IsNullOrEmpty(ViewBag.message))
     {
-        <div class="bg-white col-3 p-2 " id="categoryAlert" role="alert">
-            @ViewBag.message
-        </div>
+        <div class="bg-white  d-flex p-2 " style="height:40px">
+                <p>@ViewBag.message        <i class="fas fa-check-circle"></i></p>
+        
+            </div>
+
     }
     else
     {

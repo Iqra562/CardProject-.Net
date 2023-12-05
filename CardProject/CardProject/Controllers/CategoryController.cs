@@ -26,15 +26,15 @@ namespace CardProject.Controllers
             var check = _db.Categories.Where(c => c.CategoryName == category.CategoryName).FirstOrDefault();
             if (check != null)
             {
-                ViewBag.message = "Already exist";
+                ViewBag.exist = "Already exist";
             }
             else
             {
 
                 _db.Categories.Add(category);
                 _db.SaveChanges();
-                ViewBag.message = "Category is added";
-
+                ViewBag.message = "category added successfully!";
+                      //return RedirectToAction("Index");
             }
 
             return View();
