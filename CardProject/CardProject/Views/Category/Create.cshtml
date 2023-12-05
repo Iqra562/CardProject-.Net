@@ -9,7 +9,7 @@
     <div class="col-12 d-flex justify-content-center " style="position: relative; top:-60px">
     @if (!string.IsNullOrEmpty(ViewBag.message))
     {
-        <div class="bg-white  d-flex p-2 " style="height:40px">
+        <div class="bg-white  d-flex p-2  shadow rounded" style="height:40px">
                 <p>@ViewBag.message        <i class="fas fa-check-circle"></i></p>
         
             </div>
@@ -22,16 +22,17 @@
     </div>
     <div class="card">
         <form method="post" asp-action="Create">
-            <div class="ml-3 mt-3">
+            <div class="ml-4 mt-3">
                 <h5>Add Category</h5>
             </div>
             <div class="card-body">
                 <div class="form-group">
                     <input type="text" class="form-control " asp-for="CategoryName" value="" required="">
+                <span class="text-danger">@ViewBag.exist</span>
                 </div>
 
               
-                <button class="btn btn-primary"   onclick="fun()">Add</button>
+                <button class="btn btn-primary" >Add</button>
             </div>
 
         </form>
