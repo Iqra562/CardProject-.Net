@@ -2,6 +2,7 @@
 using DotNetConnection.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace CardProject.Controllers
 {
@@ -17,7 +18,8 @@ namespace CardProject.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+           var conn= _db.Products.Include(a => a.Category).Include(a => a.Brand).ToList();
+            return View(conn);
         }
         public IActionResult Create()
         {
@@ -41,20 +43,20 @@ namespace CardProject.Controllers
                return View(product);
            }
 
-            string ext = Path.GetExtension(Image.FileName).Trim('.');
-            if (ext == "png" || ext == "jpg")
-            {
+            //string ext = Path.GetExtension(Image.FileName).Trim('.');
+            //if (ext == "png" || ext == "jpeg")
+            //{
 
                 Image.CopyTo(new FileStream(fileName, FileMode.Create));
                 product.Image = Image.FileName;
                 _db.Products.Add(product);
                 _db.SaveChanges();
-            }
-            else
-            {
+            ////}
+            //else
+            //{
 
                 return View(product);
-            }
+            //}
             
 
                 return View();

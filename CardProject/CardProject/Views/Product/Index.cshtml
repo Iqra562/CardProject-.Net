@@ -1,16 +1,16 @@
 ﻿
+@model List<Product>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/Admin.cshtml";
 }
-@model Product 
 
 <div class="col-12">
 
     <div class="card">
         <div class="d-flex ">
             <div class="card-header">
-                <h4>Categories</h4>
+                <h4>Products</h4>
             </div>
             <div>
                 <button class="btn btn-primary mt-3 mr-3"><a asp-action="Create" class="text-white">+ Add Product</a></button>
@@ -26,8 +26,13 @@
                             <th class="">
                                 #
                             </th>
-                            <th>Category Name</th>
-
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                          
+                            <th>Category</th>
+                            <th>Brand</th>
+                            <th>Image</th>
                             <th>Edit</th>
                             <th>Delete</th>
 
@@ -35,14 +40,19 @@
                         </tr>
                     </thead>
                     <tbody class="ui-sortable">
-                        @*    /// @foreach(Category category in Model)
+                            @foreach(var item in Model)
                         {
 
                         <tr>
 
-                        <td> @category.CategoryId
+                        <td> @item.ProductId
                         </td>
-                        <td>@category.CategoryName</td>
+                        <td>@item.Name</td>
+                        <td>@item.Price</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Category.CategoryName</td>
+                        <td>@item.Brand.BrandName</td>
+                        <td><img src="~/images/@item.Image"/></td>
 
                         <td><a href="#" class="btn btn-primary">Edit</a>
                         </td><td><a href="#" class="btn btn-light ml-2">Delete</a></td>
@@ -50,7 +60,7 @@
 
                         </tr>
                         }
-                        ///*@
+                       
 
                     </tbody>
                 </table>
