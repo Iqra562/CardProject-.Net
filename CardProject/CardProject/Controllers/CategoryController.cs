@@ -13,8 +13,44 @@ namespace CardProject.Controllers
         }
         public IActionResult Index()
         {
-            
-            return View(_db.Categories.ToList());
+                       return View(_db.Categories.ToList());
+        }
+        //[HttpPost]
+        //public IActionResult Index(string searchString)
+        //{
+        //    if (!String.IsNullOrEmpty(searchString))
+        //    {
+        //        Category category = _db.Categories.Where(c => c.CategoryName == searchString).FirstOrDefault();
+
+        //        if (category != null)
+        //        {
+        //            return View(category);
+        //        }
+        //        else
+        //        {
+        //            return View("EntityNotFound");
+        //        }
+        //    }
+        //    return View(_db.Categories.ToList());
+        //}
+
+        [HttpPost]
+        public IActionResult Search(string searchString )
+        {
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                Category category = _db.Categories.Where(s => s.CategoryName!.Contains(searchString)).FirstOrDefault();
+
+                if (category != null)
+                {
+                    return View(category);
+                }
+                else
+                {
+                    return View("EntityNotFound");
+                }
+            }
+            return View("Entity not found");
         }
         public IActionResult Create()
         {
