@@ -39,5 +39,30 @@ namespace CardProject.Controllers
 
             return View();
         }
+        public IActionResult Edit(int id)
+        {
+            Category c = _db.Categories.Find(id);
+            return View(c);  
+
+        }
+        [HttpPost]
+        public IActionResult Edit(Category c)
+        {
+            if (ModelState.IsValid)
+            {
+                Category getCategory = _db.Categories.Find(c.CategoryId);
+                getCategory.CategoryName = c.CategoryName;
+                //_db.Categories.Update(getCategory);
+                _db.SaveChanges();
+                ViewBag.message = "category updated successfully!";
+
+            }
+            else
+            {
+                ViewBag.message = "category not updated";
+            }
+            return View(c);
+
+        }
     }
 }

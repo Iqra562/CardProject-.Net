@@ -43,20 +43,20 @@ namespace CardProject.Controllers
                return View(product);
            }
 
-            //string ext = Path.GetExtension(Image.FileName).Trim('.');
-            //if (ext == "png" || ext == "jpeg")
-            //{
+            string ext = Path.GetExtension(Image.FileName).Trim('.');
+            if (ext == "png" || ext == "jpeg" || ext== "jpeg" || ext == "avif" || ext == "webp")
+            {
 
                 Image.CopyTo(new FileStream(fileName, FileMode.Create));
                 product.Image = Image.FileName;
                 _db.Products.Add(product);
                 _db.SaveChanges();
-            ////}
-            //else
-            //{
+           }
+           else
+          {
 
                 return View(product);
-            //}
+      }
             
 
                 return View();
