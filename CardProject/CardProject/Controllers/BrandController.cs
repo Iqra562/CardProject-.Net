@@ -42,5 +42,21 @@ namespace CardProject.Controllers
             }
             return View();
         }
+        public IActionResult Edit(int id)
+        {
+            Brand b = _db.Brands.Find(id);
+            return View(b);
+        }
+        [HttpPost]
+        public IActionResult Edit(Brand brand)
+        {
+            
+
+                Brand b = _db.Brands.Find(brand.BrandId);
+                b.BrandName = brand.BrandName;
+                _db.SaveChanges();
+                ViewBag.message = "brand updated successfully!";
+                 return View();
+        }
     }
 }

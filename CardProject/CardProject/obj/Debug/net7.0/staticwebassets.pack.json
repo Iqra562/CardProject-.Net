@@ -637,6 +637,14 @@
       "PackagePath": "staticwebassets\\images\\anime.jpg"
     },
     {
+      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\bg1.png",
+      "PackagePath": "staticwebassets\\images\\bg1.png"
+    },
+    {
+      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\bg2.png",
+      "PackagePath": "staticwebassets\\images\\bg2.png"
+    },
+    {
       "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\ppppppppp.png",
       "PackagePath": "staticwebassets\\images\\ppppppppp.png"
     },

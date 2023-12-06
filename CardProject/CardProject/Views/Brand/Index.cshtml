@@ -13,7 +13,7 @@
                 <h4>Brands</h4>
             </div>
             <div>
-                <button class="btn btn-primary mt-3 mr-3"><a asp-action="Create" class="text-white">+ Add  brand</a></button>
+                <button class="btn btn-primary mt-3 mr-3"><a asp-action="Create" class="text-white">+ Add brand</a></button>
 
             </div>
         </div>
@@ -46,7 +46,7 @@
                                 <td>@brand.BrandName</td>
 
                                 <td>
-                                    <a href="#" class="btn btn-primary">Edit</a>
+                                    <a asp-action="Edit" asp-route-id="@brand.BrandId" class="btn btn-primary">Edit</a>
                                 </td>
                                 <td><a href="#" class="btn btn-light ml-2">Delete</a></td>
 

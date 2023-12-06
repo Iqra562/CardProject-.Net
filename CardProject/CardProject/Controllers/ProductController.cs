@@ -39,7 +39,7 @@ namespace CardProject.Controllers
 
             if (imageSize > 5 * 1024 * 1024) 
            {
-               ModelState.AddModelError("Image", "The image size exceeds the allowed limit (5MB).");
+                ViewBag.imgSizeError = "Unacceptable large file size";
                return View(product);
            }
 
@@ -55,6 +55,7 @@ namespace CardProject.Controllers
            else
           {
 
+                ViewBag.imgError = "Extension is not available";
                 return View(product);
       }
             

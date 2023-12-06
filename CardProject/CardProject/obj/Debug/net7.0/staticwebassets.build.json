@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XyfKDORV0riVPpgdjEnXeikjEqkWNY0ilR6PCc4P3ss=",
+  "Hash": "yubJbAxlSOmMGpbcePx0o/6P8elMV8p+uD9wgMqygkg=",
   "Source": "CardProject",
   "BasePath": "_content/CardProject",
   "Mode": "Default",
@@ -2718,6 +2718,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\anime.jpg"
+    },
+    {
+      "Identity": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\bg1.png",
+      "SourceId": "CardProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\",
+      "BasePath": "_content/CardProject",
+      "RelativePath": "images/bg1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bg1.png"
+    },
+    {
+      "Identity": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\bg2.png",
+      "SourceId": "CardProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\",
+      "BasePath": "_content/CardProject",
+      "RelativePath": "images/bg2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bg2.png"
     },
     {
       "Identity": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\ppppppppp.png",

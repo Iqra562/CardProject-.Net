@@ -5,38 +5,57 @@
 }
 @model Product
 <div class="col-12 col-md-12 col-lg-12">
-    <div class="alert alert-light col-3 d-none" id="categoryAlert" role="alert">
-        A simple primary alert—check it out!
+    <div class="col-12 d-flex justify-content-center " style="position: relative; top:-60px">
+        @if (!string.IsNullOrEmpty(ViewBag.message))
+        {
+            <div class="bg-white text-dark  d-flex p-2  shadow rounded" style="height:40px">
+                <p>@ViewBag.message        <i class="fas fa-check-circle"></i></p>
+
+            </div>
+            <script>
+                setTimeout(() => window.location.replace("Index"), 2000);
+            </script>
+
+        }
+        else
+        {
+            <div class="alert alert-light col-3 d-none"></div>
+        }
     </div>
 
     <div class="card">
-        <form method="post" asp-action="Create" enctype="multipart/form-data">
+        <form method="post"  asp-action="Create" enctype="multipart/form-data">
             <div class="ml-4 mt-3">
                 <h6>Add Product</h6>
             </div>
             <div class="card-body">
                 <div class="form-group">
-                    <input type="text" class="form-control " placeholder="Enter product Name" asp-for="Name" value="" required="">
+                    <input type="text" class="form-control " placeholder="Enter product Name" asp-for="Name"  required="">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control " asp-for="Price" placeholder="Enter product price" value="" required="">
+                    <input type="text" class="form-control " asp-for="Price" placeholder="Enter product price"  required="">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control " placeholder="Add product quantity" asp-for="Quantity" value="" required="">
+                    <input type="text" class="form-control " placeholder="Add product quantity" asp-for="Quantity"  required="">
                 </div>
 
                 <div class="form-group">
-                   <label>Choose One</label>
+                   <label>Select Category</label>
                     <select asp-for="CategoryId" asp-items="ViewBag.category" class="form-control"></select>
                 </div>
                 <div class="form-group">
-                    <label>Choose One</label>
+                    <label>Select Brand</label>
                     <select asp-for="BrandId" asp-items="ViewBag.brand" class="form-control"></select>
                 </div>
                 <div class="form-group">
-                    <input type="file" class="form-control " asp-for="Image" placeholder="Enter product price" value="" required="">
+                    <input type="file" class="form-control" id="getImage"  asp-for="Image" placeholder="Enter product price"  required="">
+                    <span class="text-danger">@ViewBag.imgError</span>
+                    <span class="text-danger">@ViewBag.imgSizeError</span>
                 </div>
-                <h3>@ViewBag.message</h3>
+
+                <div>
+                   
+                </div>
 
                 <button type="submit" class="btn btn-primary">Add</button>
             </div>

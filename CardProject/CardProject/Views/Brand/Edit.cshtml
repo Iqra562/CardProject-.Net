@@ -3,11 +3,10 @@
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/Admin.cshtml";
 }
-@model Category
-
+@model Brand
 <div class="col-12 col-md-12 col-lg-12">
 
-    <div class="col-12 d-flex justify-content-center " style="position: absolute; top:-22px; z-index:10">
+    <div class="col-12 d-flex justify-content-center " style="position: relative; top:-60px">
         @if (!string.IsNullOrEmpty(ViewBag.message))
         {
             <div class="bg-white text-dark  d-flex p-2  shadow rounded" style="height:40px">
@@ -15,24 +14,24 @@
 
             </div>
             <script>
-                setTimeout(() => window.location.replace("/Category/Index"), 2000);
+                setTimeout(() => window.location.replace("/Brand/Index"), 2000);
             </script>
 
         }
         else
         {
-            <div class="alert alert-light col-3 d-none" id="categoryAlert" role="alert"></div>
+            <div class="alert alert-light col-3 d-none"></div>
         }
     </div>
     <div class="card">
-            <div class="ml-4 mt-3">
-                <h6>Edit Category</h6>
-            </div>
-        <form method="post"  asp-action="Edit">
+        <div class="ml-4 mt-3">
+            <h6>Edit Brand</h6>
+        </div>
+        <form method="post" >
             <div class="card-body">
                 <div class="form-group">
-                    <input type="hidden" asp-for="CategoryId"/>
-                    <input type="text" class="form-control " asp-for="CategoryName"  required="">
+                    <input type="hidden" asp-for="BrandId" />
+                    <input type="text" class="form-control " asp-for="BrandName" required="">
                     <span class="text-danger">@ViewBag.exist</span>
                 </div>
 
@@ -43,4 +42,5 @@
         </form>
     </div>
 </div>
+
 
