@@ -3,6 +3,7 @@ using DotNetConnection.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace CardProject.Controllers
 {
@@ -20,6 +21,29 @@ namespace CardProject.Controllers
         {
            var conn= _db.Products.Include(a => a.Category).Include(a => a.Brand).ToList();
             return View(conn);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Index(string searchString)
+        {
+            if (_db.Products == null)
+            {
+                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+            }
+
+            var products = from m in _db.Products
+                             select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(s => s.Name!.Contains(searchString));
+            }
+            if (products.IsNullOrEmpty())
+            {
+
+                ViewBag.throwError = "Category Not Found";
+            }
+
+            return View(await products.ToListAsync());
         }
         public IActionResult Create()
         {

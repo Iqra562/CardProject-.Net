@@ -2,6 +2,7 @@
 using DotNetConnection.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace CardProject.Controllers
 {
@@ -31,10 +32,32 @@ namespace CardProject.Controllers
             {
                 categories = categories.Where(s => s.CategoryName!.Contains(searchString));
             }
+            if(categories.IsNullOrEmpty())  {
+
+                ViewBag.throwError = "Category Not Found";
+            }
 
             return View(await categories.ToListAsync());
         }
 
+        //[HttpPost]
+        //public IActionResult Search(string searchString )
+        //{
+        //    if (!String.IsNullOrEmpty(searchString))
+        //    {
+        //        Category category = _db.Categories.Where(s => s.CategoryName.Contains(searchString)).FirstOrDefault();
+
+        //        if (category != null)
+        //        {
+        //            return View(category);
+        //        }
+        //        else
+        //        {
+        //            return View("EntityNotFound");
+        //        }
+        //    }
+        //    return View("Entity not found");
+        //}
         public IActionResult Create()
         {
             return View();
