@@ -48,19 +48,19 @@
 
             <!-- Start app top navbar -->
             <nav class="navbar navbar-expand-lg main-navbar bg-white" style="z-index:892">
-                <form class="form-inline mr-auto">
+                <div class="form-inline mr-auto">
                     <ul class="navbar-nav mr-3">
                         <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
                         <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
                     </ul>
                     <div class="search-element">
-                        <form method="post" asp-controller="@ViewContext.RouteData.Values["controller"]" asp-action="Search">
+                        <form method="post" asp-controller="@ViewContext.RouteData.Values["controller"]" asp-action="Index">
                             <input class="form-control" type="search" name="searchString" placeholder="Search" aria-label="Search" data-width="250">
                             <button class="btn" type="submit"><i class="fas fa-search"></i></button>
                         </form>
                        
                     </div>
-                </form>
+                </div>
                 <ul class="navbar-nav navbar-right">
                     <li class="dropdown dropdown-list-toggle">
                         <a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>

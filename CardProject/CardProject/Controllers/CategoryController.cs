@@ -1,6 +1,7 @@
 ﻿using CardProject.Models;
 using DotNetConnection.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CardProject.Controllers
 {
@@ -15,43 +16,25 @@ namespace CardProject.Controllers
         {
                        return View(_db.Categories.ToList());
         }
-        //[HttpPost]
-        //public IActionResult Index(string searchString)
-        //{
-        //    if (!String.IsNullOrEmpty(searchString))
-        //    {
-        //        Category category = _db.Categories.Where(c => c.CategoryName == searchString).FirstOrDefault();
-
-        //        if (category != null)
-        //        {
-        //            return View(category);
-        //        }
-        //        else
-        //        {
-        //            return View("EntityNotFound");
-        //        }
-        //    }
-        //    return View(_db.Categories.ToList());
-        //}
-
         [HttpPost]
-        public IActionResult Search(string searchString )
+        public async Task<IActionResult> Index(string searchString)
         {
+            if (_db.Categories == null)
+            {
+                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+            }
+
+            var categories = from m in _db.Categories
+                         select m;
+
             if (!String.IsNullOrEmpty(searchString))
             {
-                Category category = _db.Categories.Where(s => s.CategoryName!.Contains(searchString)).FirstOrDefault();
-
-                if (category != null)
-                {
-                    return View(category);
-                }
-                else
-                {
-                    return View("EntityNotFound");
-                }
+                categories = categories.Where(s => s.CategoryName!.Contains(searchString));
             }
-            return View("Entity not found");
+
+            return View(await categories.ToListAsync());
         }
+
         public IActionResult Create()
         {
             return View();
