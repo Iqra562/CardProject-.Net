@@ -53,8 +53,8 @@
                         <td>@item.Category.CategoryName</td>
                         <td>@item.Brand.BrandName</td>
                         <td><img src="~/images/@item.Image" width="100"/></td>
-
-                        <td><a href="#" class="btn btn-primary">Edit</a>
+                         
+                        <td><a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-primary">Edit</a>
                         </td><td><a href="#" class="btn btn-light ml-2">Delete</a></td>
 
 

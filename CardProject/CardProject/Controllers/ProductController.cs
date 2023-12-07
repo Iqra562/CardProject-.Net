@@ -62,5 +62,21 @@ namespace CardProject.Controllers
 
                 return View();
         }
+        public IActionResult Edit(int id)
+        {
+
+            ViewBag.category = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            ViewBag.brand = new SelectList(_db.Brands, "BrandId", "BrandName");
+            Product p  = _db.Products.Find(id);
+            return View(p);
+        }
+        [HttpPost]
+        public IActionResult Edit()
+        {
+
+            ViewBag.category = new SelectList(_db.Categories, "CategoryId", "CategoryName");
+            ViewBag.brand = new SelectList(_db.Brands, "BrandId", "BrandName");
+            return View();
+        }
     }
 }

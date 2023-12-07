@@ -1,651 +1,659 @@
 {
   "Files": [
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\asset\\img\\unsplash\\andre-benz-1214056-unsplash.html",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\asset\\img\\unsplash\\andre-benz-1214056-unsplash.html",
       "PackagePath": "staticwebassets\\adminLib\\asset\\img\\unsplash\\andre-benz-1214056-unsplash.html"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\asset\\img\\unsplash\\eberhard-grossgasteiger-1207565-unsplash.html",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\asset\\img\\unsplash\\eberhard-grossgasteiger-1207565-unsplash.html",
       "PackagePath": "staticwebassets\\adminLib\\asset\\img\\unsplash\\eberhard-grossgasteiger-1207565-unsplash.html"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\bundles\\lib.vendor.bundle.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\bundles\\lib.vendor.bundle.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\bundles\\lib.vendor.bundle.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\css\\components.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\css\\components.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\css\\components.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\css\\style.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\css\\style.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\css\\style.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\americanexpress.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\americanexpress.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\americanexpress.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-1.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-1.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\avatar\\avatar-1.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-2.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-2.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\avatar\\avatar-2.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-3.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-3.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\avatar\\avatar-3.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-4.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-4.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\avatar\\avatar-4.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-5.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\avatar\\avatar-5.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\avatar\\avatar-5.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\chrome.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\chrome.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\browsers\\chrome.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\firefox.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\firefox.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\browsers\\firefox.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\internet-explorer.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\internet-explorer.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\browsers\\internet-explorer.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\opera.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\opera.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\browsers\\opera.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\safari.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\browsers\\safari.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\browsers\\safari.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\dinersclub.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\dinersclub.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\dinersclub.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\discover.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\discover.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\discover.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\example-image-50.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\example-image-50.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\example-image-50.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\example-image.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\example-image.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\example-image.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\jcb.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\jcb.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\jcb.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\mastercard.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\mastercard.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\mastercard.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img01.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img01.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img01.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img02.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img02.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img02.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img03.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img03.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img03.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img04.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img04.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img04.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img05.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img05.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img05.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img06.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img06.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img06.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img07.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img07.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img07.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img08.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img08.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img08.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img09.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img09.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img09.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img10.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img10.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img10.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img12.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img12.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img12.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img13.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img13.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img13.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img14.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img14.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img14.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img15.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\news\\img15.jpg",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\news\\img15.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\paypal.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\paypal.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\paypal.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-1-50.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-1-50.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\products\\product-1-50.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-2-50.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-2-50.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\products\\product-2-50.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-3-50.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-3-50.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\products\\product-3-50.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-4-50.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-4-50.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\products\\product-4-50.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-5-50.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\products\\product-5-50.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\products\\product-5-50.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\visa.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\img\\visa.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\img\\visa.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\js\\page\\features-setting-detail.html",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\js\\page\\features-setting-detail.html",
       "PackagePath": "staticwebassets\\adminLib\\assets\\js\\page\\features-setting-detail.html"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\apexcharts\\apexcharts.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\apexcharts\\apexcharts.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\apexcharts\\apexcharts.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-colorpicker\\dist\\css\\bootstrap-colorpicker.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-colorpicker\\dist\\css\\bootstrap-colorpicker.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap-colorpicker\\dist\\css\\bootstrap-colorpicker.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-colorpicker\\dist\\js\\bootstrap-colorpicker.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-colorpicker\\dist\\js\\bootstrap-colorpicker.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap-colorpicker\\dist\\js\\bootstrap-colorpicker.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-daterangepicker\\daterangepicker.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-daterangepicker\\daterangepicker.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap-daterangepicker\\daterangepicker.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-daterangepicker\\daterangepicker.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-daterangepicker\\daterangepicker.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap-daterangepicker\\daterangepicker.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-social\\bootstrap-social.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-social\\bootstrap-social.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap-social\\bootstrap-social.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-timepicker\\css\\bootstrap-timepicker.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-timepicker\\css\\bootstrap-timepicker.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap-timepicker\\css\\bootstrap-timepicker.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-timepicker\\js\\bootstrap-timepicker.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap-timepicker\\js\\bootstrap-timepicker.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap-timepicker\\js\\bootstrap-timepicker.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chart.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chart.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\chart.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\charts-c3\\c3.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\charts-c3\\c3.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\charts-c3\\c3.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\charts-c3\\c3.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\charts-c3\\c3.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\charts-c3\\c3.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\charts-c3\\d3.v3.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\charts-c3\\d3.v3.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\charts-c3\\d3.v3.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\css\\chocolat.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\css\\chocolat.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\chocolat\\dist\\css\\chocolat.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\close.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\close.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\chocolat\\dist\\images\\close.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\fullscreen.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\fullscreen.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\chocolat\\dist\\images\\fullscreen.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\left.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\left.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\chocolat\\dist\\images\\left.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\loader.gif",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\loader.gif",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\chocolat\\dist\\images\\loader.gif"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\right.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\images\\right.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\chocolat\\dist\\images\\right.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\js\\jquery.chocolat.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\chocolat\\dist\\js\\jquery.chocolat.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\chocolat\\dist\\js\\jquery.chocolat.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\cleave-js\\dist\\addons\\cleave-phone.us.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\cleave-js\\dist\\addons\\cleave-phone.us.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\cleave-js\\dist\\addons\\cleave-phone.us.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\cleave-js\\dist\\cleave.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\cleave-js\\dist\\cleave.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\cleave-js\\dist\\cleave.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\codemirror\\lib\\codemirror.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\codemirror\\lib\\codemirror.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\codemirror\\lib\\codemirror.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\codemirror\\lib\\codemirror.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\codemirror\\lib\\codemirror.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\codemirror\\lib\\codemirror.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\codemirror\\mode\\javascript\\javascript.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\codemirror\\mode\\javascript\\javascript.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\codemirror\\mode\\javascript\\javascript.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\codemirror\\theme\\duotone-dark.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\codemirror\\theme\\duotone-dark.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\codemirror\\theme\\duotone-dark.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\DataTables-1.10.16\\css\\dataTables.bootstrap4.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\DataTables-1.10.16\\css\\dataTables.bootstrap4.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\datatables\\DataTables-1.10.16\\css\\dataTables.bootstrap4.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\DataTables-1.10.16\\js\\dataTables.bootstrap4.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\DataTables-1.10.16\\js\\dataTables.bootstrap4.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\datatables\\DataTables-1.10.16\\js\\dataTables.bootstrap4.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\Select-1.2.4\\css\\select.bootstrap4.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\Select-1.2.4\\css\\select.bootstrap4.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\datatables\\Select-1.2.4\\css\\select.bootstrap4.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\Select-1.2.4\\js\\dataTables.select.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\Select-1.2.4\\js\\dataTables.select.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\datatables\\Select-1.2.4\\js\\dataTables.select.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\datatables.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\datatables.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\datatables\\datatables.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\datatables.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\datatables\\datatables.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\datatables\\datatables.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\dropzonejs\\dropzone.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\dropzonejs\\dropzone.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\dropzonejs\\dropzone.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\dropzonejs\\min\\dropzone.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\dropzonejs\\min\\dropzone.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\dropzonejs\\min\\dropzone.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\echart\\echarts.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\echart\\echarts.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\echart\\echarts.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\flag-icon-css\\css\\flag-icon.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\flag-icon-css\\css\\flag-icon.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\flag-icon-css\\css\\flag-icon.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\fontawesome\\css\\all.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\fontawesome\\css\\all.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\fontawesome\\css\\all.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\fullcalendar\\fullcalendar.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\fullcalendar\\fullcalendar.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\fullcalendar\\fullcalendar.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\fullcalendar\\fullcalendar.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\fullcalendar\\fullcalendar.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\fullcalendar\\fullcalendar.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\gmaps.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\gmaps.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\gmaps.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\ionicons\\css\\ionicons.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\ionicons\\css\\ionicons.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\ionicons\\css\\ionicons.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\izitoast\\css\\iziToast.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\izitoast\\css\\iziToast.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\izitoast\\css\\iziToast.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\izitoast\\js\\iziToast.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\izitoast\\js\\iziToast.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\izitoast\\js\\iziToast.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery-pwstrength\\jquery.pwstrength.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery-pwstrength\\jquery.pwstrength.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jquery-pwstrength\\jquery.pwstrength.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery-selectric\\jquery.selectric.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery-selectric\\jquery.selectric.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jquery-selectric\\jquery.selectric.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery-selectric\\selectric.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery-selectric\\selectric.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jquery-selectric\\selectric.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery-ui\\jquery-ui.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery-ui\\jquery-ui.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jquery-ui\\jquery-ui.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery.sparkline.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jquery.sparkline.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jquery.sparkline.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\jquery.vmap.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\jquery.vmap.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jqvmap\\dist\\jquery.vmap.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\jqvmap.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\jqvmap.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jqvmap\\dist\\jqvmap.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.USA.html",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.USA.html",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.USA.html"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.germany.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.germany.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.germany.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.russia.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.russia.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.russia.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.world.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.world.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\jqvmap\\dist\\maps\\jquery.vmap.world.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\knobjs\\knob.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\knobjs\\knob.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\knobjs\\knob.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\owlcarousel2\\dist\\assets\\owl.carousel.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\owlcarousel2\\dist\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\owlcarousel2\\dist\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\owlcarousel2\\dist\\assets\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\owlcarousel2\\dist\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\owlcarousel2\\dist\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\owlcarousel2\\dist\\assets\\owl.video.play.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\owlcarousel2\\dist\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\owlcarousel2\\dist\\assets\\owl.video.play.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\owlcarousel2\\dist\\owl.carousel.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\owlcarousel2\\dist\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\owlcarousel2\\dist\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\prism\\prism.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\prism\\prism.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\prism\\prism.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\prism\\prism.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\prism\\prism.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\prism\\prism.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\select2\\dist\\css\\select2.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\select2\\dist\\css\\select2.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\select2\\dist\\css\\select2.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\select2\\dist\\js\\select2.full.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\select2\\dist\\js\\select2.full.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\select2\\dist\\js\\select2.full.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\simple-weather\\jquery.simpleWeather.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\simple-weather\\jquery.simpleWeather.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\simple-weather\\jquery.simpleWeather.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\font\\summernote4c4d.eot",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\font\\summernote4c4d.eot",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\summernote\\font\\summernote4c4d.eot"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\font\\summernote4c4d.ttf",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\font\\summernote4c4d.ttf",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\summernote\\font\\summernote4c4d.ttf"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\font\\summernote4c4d.woff",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\font\\summernote4c4d.woff",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\summernote\\font\\summernote4c4d.woff"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\font\\summernoted41d.eot",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\font\\summernoted41d.eot",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\summernote\\font\\summernoted41d.eot"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\summernote-bs4.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\summernote-bs4.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\summernote\\summernote-bs4.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\summernote-bs4.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\summernote\\summernote-bs4.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\summernote\\summernote-bs4.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\sweetalert\\sweetalert.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\sweetalert\\sweetalert.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\sweetalert\\sweetalert.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\upload-preview\\assets\\js\\jquery.uploadPreview.min.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\upload-preview\\assets\\js\\jquery.uploadPreview.min.js",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\upload-preview\\assets\\js\\jquery.uploadPreview.min.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\weather-icon\\css\\weather-icons-wind.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\weather-icon\\css\\weather-icons-wind.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\weather-icon\\css\\weather-icons-wind.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\weather-icon\\css\\weather-icons.min.css",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\assets\\modules\\weather-icon\\css\\weather-icons.min.css",
       "PackagePath": "staticwebassets\\adminLib\\assets\\modules\\weather-icon\\css\\weather-icons.min.css"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\CodiePie.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\CodiePie.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\CodiePie.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\custom.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\custom.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\custom.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\auth-register.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\auth-register.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\auth-register.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\bootstrap-modal.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\bootstrap-modal.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\bootstrap-modal.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-chat-box.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-chat-box.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\components-chat-box.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-multiple-upload.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-multiple-upload.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\components-multiple-upload.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-statistic.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-statistic.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\components-statistic.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-table.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-table.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\components-table.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-user.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\components-user.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\components-user.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\features-post-create.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\features-post-create.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\features-post-create.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\features-posts.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\features-posts.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\features-posts.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\forms-advanced-forms.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\forms-advanced-forms.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\forms-advanced-forms.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-advanced-route.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-advanced-route.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\gmaps-advanced-route.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-draggable-marker.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-draggable-marker.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\gmaps-draggable-marker.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-geocoding.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-geocoding.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\gmaps-geocoding.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-geolocation.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-geolocation.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\gmaps-geolocation.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-marker.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-marker.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\gmaps-marker.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-multiple-marker.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-multiple-marker.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\gmaps-multiple-marker.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-route.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-route.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\gmaps-route.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-simple.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\gmaps-simple.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\gmaps-simple.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\index-0.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\index-0.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\index-0.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\index.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\index.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\index.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-apex.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-apex.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-apex.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-c3.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-c3.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-c3.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-calendar.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-calendar.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-calendar.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-chartjs.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-chartjs.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-chartjs.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-datatables.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-datatables.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-datatables.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-echart.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-echart.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-echart.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-ion-icons.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-ion-icons.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-ion-icons.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-knobjs.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-knobjs.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-knobjs.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-slider.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-slider.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-slider.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-sparkline.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-sparkline.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-sparkline.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-sweetalert.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-sweetalert.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-sweetalert.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-toastr.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-toastr.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-toastr.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-vector-map.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\modules-vector-map.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\modules-vector-map.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\utilities-contact.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\page\\utilities-contact.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\page\\utilities-contact.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\scripts.js",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\adminLib\\js\\scripts.js",
       "PackagePath": "staticwebassets\\adminLib\\js\\scripts.js"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\a.jfif",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\Screenshot (33).png",
+      "PackagePath": "staticwebassets\\images\\Screenshot (33).png"
+    },
+    {
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\WhatsApp Image 2023-11-02 at 04.20.22 (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2023-11-02 at 04.20.22 (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\a.jfif",
       "PackagePath": "staticwebassets\\images\\a.jfif"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\anime.jpg",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\anime.jpg",
       "PackagePath": "staticwebassets\\images\\anime.jpg"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\bg1.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\bg1.png",
       "PackagePath": "staticwebassets\\images\\bg1.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\bg2.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\bg2.png",
       "PackagePath": "staticwebassets\\images\\bg2.png"
     },
     {
-      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\ppppppppp.png",
+      "Id": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\ppppppppp.png",
       "PackagePath": "staticwebassets\\images\\ppppppppp.png"
     },
     {
