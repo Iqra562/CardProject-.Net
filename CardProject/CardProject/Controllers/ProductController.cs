@@ -36,14 +36,13 @@ namespace CardProject.Controllers
             string uploadPath = Path.Combine(env.WebRootPath, "images");
             string fileName = Path.Combine(uploadPath, Path.GetFileName(Image.FileName));
             long imageSize = Image.Length; 
+            string ext = Path.GetExtension(Image.FileName).Trim('.');
 
             if (imageSize > 5 * 1024 * 1024) 
            {
                 ViewBag.imgSizeError = "Unacceptable large file size";
                return View(product);
            }
-
-            string ext = Path.GetExtension(Image.FileName).Trim('.');
             if (ext == "png" || ext == "jpeg" || ext== "jpeg" || ext == "avif" || ext == "webp")
             {
 
@@ -51,6 +50,7 @@ namespace CardProject.Controllers
                 product.Image = Image.FileName;
                 _db.Products.Add(product);
                 _db.SaveChanges();
+                ViewBag.message = "product added successfully";
            }
            else
           {

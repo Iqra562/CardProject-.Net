@@ -30,14 +30,14 @@ namespace CardProject.Controllers
             var check = _db.Brands.Where(c => c.BrandName == brand.BrandName).FirstOrDefault();
             if (check != null)
             {
-                ViewBag.message = "Already exist";
+                ViewBag.exist = "Already exist";
             }
             else
             {
 
                 _db.Brands.Add(brand);
                 _db.SaveChanges();
-                ViewBag.message = "brand is added";
+                ViewBag.message = "brand added successfully";
 
             }
             return View();

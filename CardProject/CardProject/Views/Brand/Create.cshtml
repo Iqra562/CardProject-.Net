@@ -5,9 +5,22 @@
 }
 @model Brand
 <div class="col-12 col-md-12 col-lg-12">
-<div class="alert alert-light col-3 d-none" id="categoryAlert" role="alert">
-    A simple primary alert—check it out!
-</div>
+    <div class="col-12 d-flex justify-content-center  alertPosition">
+        @if (!string.IsNullOrEmpty(ViewBag.message))
+        {
+            <div class="bg-white   d-flex p-2  shadow rounded" style="height:40px;">
+                <p>@ViewBag.message        <i class="fas fa-check-circle"></i></p>
+
+            </div>
+            <script>
+                setTimeout(() => window.location.replace("Index"), 2000);
+            </script>
+        }
+        else
+        {
+            <div class="alert alert-light col-3 d-none" id="categoryAlert" role="alert"></div>
+        }
+    </div>
 
 <div class="card">
     <form method="post" asp-action="Create" enctype="multipart/form-data">
@@ -16,7 +29,9 @@
             </div>
         <div class="card-body">
             <div class="form-group">
-                <input type="text" class="form-control " asp-for="BrandName" value="" required="">
+                <input type="text" class="form-control " asp-for="BrandName"  required="">
+                    <span class="text-danger">@ViewBag.exist</span>
+
             </div>
 
 
@@ -24,7 +39,7 @@
         </div>
 
     </form>
-    <div class="bg-red">@ViewBag.message </div>
+    
 </div>
 </div>
 

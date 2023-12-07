@@ -70,7 +70,6 @@ namespace CardProject.Controllers
                 _db.Categories.Add(category);
                 _db.SaveChanges();
                 ViewBag.message = "category added successfully!";
-                      //return RedirectToAction("Index");
             }
 
             return View();
