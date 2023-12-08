@@ -36,7 +36,7 @@ namespace CardProject.Controllers
 
                 ViewBag.throwError = "Category Not Found";
             }
-
+            ViewBag.SearchString = searchString;
             return View(await categories.ToListAsync());
         }
 

@@ -35,13 +35,14 @@ namespace CardProject.Controllers
             if (!String.IsNullOrEmpty(searchString))
             {
                 brands = brands.Where(s => s.BrandName!.Contains(searchString));
+            searchString = searchString;
             }
             if (brands.IsNullOrEmpty())
             {
 
                 ViewBag.throwError = "Brand Not Found";
             }
-            searchString = searchString;
+            ViewBag.SearchString = searchString;
             return View(await brands.ToListAsync());
         }
         public IActionResult Create()   

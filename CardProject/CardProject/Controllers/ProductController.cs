@@ -42,7 +42,7 @@ namespace CardProject.Controllers
 
                 ViewBag.throwError = "Product Not Found";
             }
-
+            ViewBag.SearchString = searchString;
             return View(await products.ToListAsync());
         }
         public IActionResult Create()

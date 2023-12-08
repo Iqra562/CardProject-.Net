@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tWYhl4hkjaIKW7BYBcBcP1tz680yqLJYMaKgj2UMzMA=",
+  "Hash": "birpRl0yQY59+/nS+3julwhxe7DdJoh695TlGB4GuiY=",
   "Source": "CardProject",
   "BasePath": "_content/CardProject",
   "Mode": "Default",
@@ -2701,6 +2701,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\a.jfif"
+    },
+    {
+      "Identity": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\aa.png",
+      "SourceId": "CardProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\",
+      "BasePath": "_content/CardProject",
+      "RelativePath": "images/aa.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\aa.png"
     },
     {
       "Identity": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\anime.jpg",

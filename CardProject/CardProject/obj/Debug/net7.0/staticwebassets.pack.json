@@ -645,6 +645,10 @@
       "PackagePath": "staticwebassets\\images\\a.jfif"
     },
     {
+      "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\aa.png",
+      "PackagePath": "staticwebassets\\images\\aa.png"
+    },
+    {
       "Id": "C:\\workfolder\\CardProject-.Net\\CardProject\\CardProject\\wwwroot\\images\\anime.jpg",
       "PackagePath": "staticwebassets\\images\\anime.jpg"
     },

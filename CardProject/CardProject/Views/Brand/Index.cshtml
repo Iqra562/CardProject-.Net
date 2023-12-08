@@ -57,6 +57,12 @@
 
                     </tbody>
                 </table>
+                @if (!string.IsNullOrEmpty(ViewBag.throwError))
+                {
+                    
+                <div class="d-flex justify-content-center text-light  align-self-end m-5 p-5 bg-white" style="font-size:30px"><i class="fa fa-inbox " aria-hidden="true"></i><p>@ViewBag.throwError</p></div>
+            
+                }
             </div>
         </div>
     </div>
