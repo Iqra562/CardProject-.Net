@@ -55,7 +55,7 @@
                     </ul>
                     <div class="search-element">
                         <form method="post" asp-controller="@ViewContext.RouteData.Values["controller"]" asp-action="Index">
-                            <input class="form-control" type="text" name="searchString" value="@ViewBag.SearchString" placeholder="Search" aria-label="Search" data-width="250">
+                            <input class="form-control" type="text" name="searchString" placeholder="Search" value="@ViewBag.searchString" id="searchInput" aria-label="Search" data-width="250" onChange="setURL()">
                             <button class="btn" type="submit"><i class="fas fa-search"></i></button>
                         </form>
                        
@@ -292,6 +292,16 @@
     <!-- Template JS File -->
     <script src="~/adminLib/js/scripts.js"></script>
     <script src="~/adminLib/js/custom.js"></script>
+   <script>
+    function setURL() {
+        console.log("input clickwd")
+        let inputValue = document.getElementById("searchInput").value;
+        if (!inputValue || inputValue.trim() === "") {
+            window.location.assign(window.location.href);
+        }
+    }
+</script>
+
     
 </body>
 
