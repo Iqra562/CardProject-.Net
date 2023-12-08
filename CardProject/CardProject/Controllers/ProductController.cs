@@ -30,8 +30,8 @@ namespace CardProject.Controllers
                 return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
             }
 
-            var products = from m in _db.Products
-                             select m;
+            var products = from m in _db.Products.Include(a => a.Category).Include(a => a.Brand)
+                           select m;
 
             if (!String.IsNullOrEmpty(searchString))
             {
@@ -40,7 +40,7 @@ namespace CardProject.Controllers
             if (products.IsNullOrEmpty())
             {
 
-                ViewBag.throwError = "Category Not Found";
+                ViewBag.throwError = "Product Not Found";
             }
 
             return View(await products.ToListAsync());

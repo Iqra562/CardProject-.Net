@@ -1,7 +1,9 @@
 ﻿using CardProject.Models;
 using DotNetConnection.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.IdentityModel.Tokens;
 
 namespace CardProject.Controllers
 {
@@ -18,6 +20,29 @@ namespace CardProject.Controllers
         {
   
             return View(_db.Brands.ToList());
+        }
+        [HttpPost]
+        public async Task<IActionResult> Index(string searchString)
+        {
+            if (_db.Brands == null)
+            {
+                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+            }
+
+            var brands = from m in _db.Brands
+                             select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                brands = brands.Where(s => s.BrandName!.Contains(searchString));
+            }
+            if (brands.IsNullOrEmpty())
+            {
+
+                ViewBag.throwError = "Brand Not Found";
+            }
+            searchString = searchString;
+            return View(await brands.ToListAsync());
         }
         public IActionResult Create()   
         {
