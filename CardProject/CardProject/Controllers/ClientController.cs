@@ -16,5 +16,16 @@ namespace CardProject.Controllers
 
             return View(products);
         }
+public IActionResult CategoryProduct(int id )
+        {
+            var catProducts = _db.Products.Where(b => b.CategoryId == id).ToList();
+
+            return View(catProducts);
+        }
+        public IActionResult ProductDetails(int id)
+        {
+            ViewBag.data = _db.Products.Where(p => p.ProductId == id).FirstOrDefault();
+            return View();
+        }
     }
 }
