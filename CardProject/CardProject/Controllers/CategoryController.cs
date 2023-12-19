@@ -99,6 +99,14 @@ namespace CardProject.Controllers
 
             return View();
 
+
+        }
+        public IActionResult Delete(int id)
+        {
+            Category catId = _db.Categories.Find(id);
+            _db.Categories.Remove(catId);
+            _db.SaveChanges();
+            return View("Index");
         }
     }
 }

@@ -62,29 +62,29 @@ namespace CardProject.Controllers
             long imageSize = Image.Length; 
             string ext = Path.GetExtension(Image.FileName).Trim('.');
 
-           // if (imageSize > 5 * 1024 * 1024) 
-           //{
-           //     ViewBag.imgSizeError = "Unacceptable large file size";
-           //    return View(product);
-           //}
-      //      if (ext == "png" || ext == "jpeg" || ext== "jpeg" || ext == "avif" || ext == "webp")
-      //      {
+            if (imageSize > 5 * 1024 * 1024)
+            {
+                ViewBag.imgSizeError = "Unacceptable large file size";
+                return View(product);
+            }
+            if (ext == "png" || ext == "jpeg" || ext == "jpeg" || ext == "avif" || ext == "webp")
+            {
 
-      //          Image.CopyTo(new FileStream(fileName, FileMode.Create));
-      //          product.Image = Image.FileName;
-      //          _db.Products.Add(product);
-      //          _db.SaveChanges();
-      //          ViewBag.message = "product added successfully";
-      //     }
-      //     else
-      //    {
+                Image.CopyTo(new FileStream(fileName, FileMode.Create));
+                product.Image = Image.FileName;
+                _db.Products.Add(product);
+                _db.SaveChanges();
+                ViewBag.message = "product added successfully";
+            }
+            else
+            {
 
-      //          ViewBag.imgError = "Extension is not available";
-      //          return View(product);
-      //}
-            
+                ViewBag.imgError = "Extension is not available";
+                return View(product);
+            }
 
-                return View();
+
+            return View();
         }
         public IActionResult Edit(int id)
         {
@@ -110,7 +110,7 @@ namespace CardProject.Controllers
             getProduct.CategoryId = 1;
             getProduct.Image = "";
             _db.SaveChanges();
-            ViewBag.message = "category updated successfully!";
+            ViewBag.message = "product updated successfully!";
             return View();
         }
     }
