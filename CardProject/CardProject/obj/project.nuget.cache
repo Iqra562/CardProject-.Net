@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qKGAo8qQKqmT1C7gbHWS3T5kCB4dv4973vxcu13sCoZ2VbQuE0Cqg6YeZCLZKDCfCOkFNWnKhbBUWny+cpCpaQ==",
+  "dgSpecHash": "PIKCYnubmq/R5b3mbgBF6wg1tZz9EvB3aqCN+juUPVIxSxhZnfOyhZSr2V+QVRWmg2+Koxgg5L0sbBbG3wclyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\STD\\Downloads\\CardProject-.Net\\CardProject\\CardProject\\CardProject.csproj",
+  "projectFilePath": "C:\\Users\\STD\\Documents\\CardProject-.Net\\CardProject\\CardProject\\CardProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\STD\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\STD\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
